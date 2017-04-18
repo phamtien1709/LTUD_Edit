@@ -1,0 +1,219 @@
+F:\QLy_Building\GalaBuilding\GalaBuilding\bin\Debug\GalaBuilding.exe
+F:\QLy_Building\GalaBuilding\GalaBuilding\bin\Debug\GalaBuilding.pdb
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\ResolveAssemblyReference.cache
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.frmFlash.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.exe
+F:\QLy_Building\GalaBuilding\GalaBuilding\obj\Debug\GalaBuilding.pdb
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\ResolveAssemblyReference.cache
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmFlash.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+F:\QLy_Building\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\ResolveAssemblyReference.cache
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+E:\Downloads\Nestcape\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmsplash.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\ResolveAssemblyReference.cache
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmsplash.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+E:\Mon hoc tren lop\Lap trinh win\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\ResolveAssemblyReference.cache
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmSplash.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+E:\Mon hoc tren lop\QLy_Building\GalaBuilding\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csprojResolveAssemblyReference.cache
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmSplash.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+F:\study\LTUD\BTL\Duphong\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csprojResolveAssemblyReference.cache
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmSplash.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmQuyDinh.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDanToc.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNgheNghiep.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTonGiao.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+C:\Users\Kid\Desktop\QLCC\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csprojResolveAssemblyReference.cache
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
