@@ -217,3 +217,5 @@ C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\So
 C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses
 C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
 C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
