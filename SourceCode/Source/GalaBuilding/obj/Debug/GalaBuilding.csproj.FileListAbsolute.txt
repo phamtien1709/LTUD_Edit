@@ -222,7 +222,6 @@ F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.csprojResolveAssemblyReference.cache
-F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources

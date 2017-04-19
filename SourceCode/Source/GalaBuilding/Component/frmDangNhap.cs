@@ -18,10 +18,6 @@ namespace GalaBuilding.Component
         public frmDangNhap()
         {
             InitializeComponent();
-            if (txtdangnhap.Text != "")
-                checkLuuMatKhau.Checked = true;
-            else //if (txtdangnhap.Text == "")
-                checkLuuMatKhau.Checked = false;
         }
       
         private void btnhuybo_Click(object sender, EventArgs e)
@@ -48,16 +44,7 @@ namespace GalaBuilding.Component
             NguoiDungCtrl m_NguoiDungCtrl = new NguoiDungCtrl();
             m_NguoiDungCtrl.HienThiTaiKhoanDuocLuu(txtdangnhap, txtmatkhau);
 
-            if (txtdangnhap.Text != "")
-                checkLuuMatKhau.Checked = true;
-            else //if (txtdangnhap.Text == "")
-                checkLuuMatKhau.Checked = false;
         }
 
-        private void cmdKetNoi_Click(object sender, EventArgs e)
-        {
-            frmConnection m_Connection = new frmConnection();
-            m_Connection.ShowDialog();
-        }
     }
 }
