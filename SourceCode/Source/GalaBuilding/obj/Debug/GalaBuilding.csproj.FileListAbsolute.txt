@@ -219,3 +219,24 @@ C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\So
 C:\Users\Kid\Desktop\New folder\GalaBuilding\7224_source_amwJj_20130409025749\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.exe
 F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.pdb
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\bin\Debug\GalaBuilding.exe
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\bin\Debug\GalaBuilding.pdb
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.csprojResolveAssemblyReference.cache
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmConnection.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDangNhap.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.frmDoiMatKhau.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Component.Thaydoichuot.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmAbout.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmChucVu.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDan.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNhanVien.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNhanVien.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDichVu.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmLoaiNguoiDung.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmMain.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmNguoiDung.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmDangKyDichVu.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.frmTraCuuNguoiDan.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.Properties.Resources.resources
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.csproj.GenerateResource.Cache
+F:\LTUD\QLDV\SourceCode\Source\GalaBuilding\obj\Debug\GalaBuilding.exe.licenses

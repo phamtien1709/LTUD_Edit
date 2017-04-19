@@ -31,20 +31,18 @@ namespace GalaBuilding.DataLayer
             m_NhanVienData.Rows.Add(m_Row);
         }
 
-        public bool LuuNhanVien()
+        public bool luuNhanVien()
         {
             return m_NhanVienData.ExecuteNoneQuery() > 0;
         }
 
-        public void LuuNhanVien(String MaNhanVien, String TenNhanVien, bool GioiTinh, DateTime NgaySinh, String DiaChi, String DienThoai, String MaChucVu)
+        public void LuuNhanVien(String MaNhanVien, String TenNhanVien, bool GioiTinh, DateTime NgaySinh, String MaChucVu)
         {
-            SqlCommand cmd = new SqlCommand("INSERT INTO NHANVIEN VALUES(@MaNhanVien, @TenNhanVien, @GioiTinh, @NgaySinh, @DiaChi, @DienThoai, @MaChucVu)");
+            SqlCommand cmd = new SqlCommand("INSERT INTO NHANVIEN VALUES(@MaNhanVien, @TenNhanVien, @GioiTinh, @NgaySinh, @MaChucVu)");
             cmd.Parameters.Add("MaNhanVien", SqlDbType.VarChar).Value = MaNhanVien;
             cmd.Parameters.Add("TenNhanVien", SqlDbType.NVarChar).Value = TenNhanVien;
             cmd.Parameters.Add("GioiTinh", SqlDbType.Bit).Value = GioiTinh;
             cmd.Parameters.Add("NgaySinh", SqlDbType.DateTime).Value = NgaySinh;
-            cmd.Parameters.Add("DiaChi", SqlDbType.NVarChar).Value = DiaChi;
-            cmd.Parameters.Add("DienThoai", SqlDbType.VarChar).Value = DienThoai;
             cmd.Parameters.Add("MaChucVu", SqlDbType.VarChar).Value = MaChucVu;
             m_NhanVienData.Load(cmd);
         }
@@ -74,14 +72,10 @@ namespace GalaBuilding.DataLayer
 
         public String TruyVanChung()
         {
-            return "SELECT NV.MaNhanVien, NV.TenNhanVien, NV.GioiTinh, NV.NgaySinh, NV.DiaChi, NV.DienThoai, CV.TenChucVu " +
+            return "SELECT NV.MaNhanVien, NV.TenNhanVien, NV.GioiTinh, NV.NgaySinh, CV.TenChucVu " +
                    "FROM NHANVIEN NV FULL OUTER JOIN CHUCVU CV ON NV.MaChucVu = CV.MaChucVu ";
         }
 
-        internal void LuuNhanVien(string maNhanVien, string tenNhanVien, bool gioiTinh, DateTime ngaySinh, string chucVu)
-        {
-            throw new NotImplementedException();
-        }
 
         public DataTable LayDSNhanVienExcel(string path)
         {
@@ -89,18 +83,12 @@ namespace GalaBuilding.DataLayer
             return dsIOExcel.Load(cmd, path);
         }
 
-        public DataTable TimKiemNhanVien(String TenNhanVien, String theoDiaChi, String DiaChi, String theoChucVu, String TenChucVu)
+        public DataTable TimKiemNhanVien(String TenNhanVien, String theoChucVu, String TenChucVu)
         {
             SqlCommand cmd = new SqlCommand();
 
             String sql = TruyVanChung() + " WHERE NV.TenNhanVien LIKE '%' + @TenNhanVien + '%' ";
             cmd.Parameters.Add("TenNhanVien", SqlDbType.NVarChar).Value = TenNhanVien;
-
-            if (theoDiaChi != "NONE")
-            {
-                sql += theoDiaChi + " NV.DiaChi LIKE N'%' + @DiaChi + '%' ";
-                cmd.Parameters.Add("DiaChi", SqlDbType.NVarChar).Value = DiaChi;
-            }
 
             if (theoChucVu != "NONE")
             {
@@ -113,9 +101,5 @@ namespace GalaBuilding.DataLayer
             return m_NhanVienData;
         }
 
-        internal object TimKiemNhanVien(string text1, string text2, string text3)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

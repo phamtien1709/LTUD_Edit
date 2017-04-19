@@ -79,7 +79,7 @@ namespace GalaBuilding.Controller
 
         public bool LuuNhanVien()
         {
-            return m_NhanVienData.LuuNhanVien();
+            return m_NhanVienData.luuNhanVien();
         }
 
         public void LuuNhanVien(String maNhanVien, String tenNhanVien, bool gioiTinh, DateTime ngaySinh, String chucVu)
@@ -172,16 +172,6 @@ namespace GalaBuilding.Controller
         }
 
         internal void HienThi(DataGridViewX dgvNhanVien, BindingNavigator bdgNhanVien, TextBoxX txtMaNhanVien, TextBoxX txtTenNhanVien, ComboBoxEx cmbChucVu)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void LuuNhanVien(string p, string p_2, string p_3, string p_4, string p_5)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void LuuNhanVien(string p, string p_2, DataGridViewCheckBoxColumn GioiTinh, DataGridViewTextBoxColumn NgaySinh, string p_7)
         {
             throw new NotImplementedException();
         }
