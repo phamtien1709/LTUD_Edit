@@ -438,7 +438,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Building.ico" />
-    <Content Include="GalaBuilding.ico" />
+    <Content Include="QLDV.ico" />
     <None Include="Resources\Building.png" />
     <None Include="Resources\Programs.png" />
     <None Include="Resources\NgheNghiep2.png" />

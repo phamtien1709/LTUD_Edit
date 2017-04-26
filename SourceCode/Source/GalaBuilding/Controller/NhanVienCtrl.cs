@@ -112,11 +112,11 @@ namespace GalaBuilding.Controller
 
         public void TimKiemNhanVien(TextBoxX txtTenNhanVien,
                                    DataGridViewX dNV,
-                                   BindingNavigator bN)
+                                   BindingNavigator bNV)
         {
             BindingSource bS = new BindingSource();
             bS.DataSource = m_NhanVienData.TimKiemNhanVien(txtTenNhanVien.Text);
-            bN.BindingSource = bS;
+            bNV.BindingSource = bS;
             dNV.DataSource = bS;
         }
 
@@ -130,44 +130,44 @@ namespace GalaBuilding.Controller
             m_NhanVienData.TimTheoTen(m_TenNhanVien);
         }
 
-        public void Import(string path, DataGridView dgv)
-        {
-            DataTable dtbNhanVienExcel = m_NhanVienData.LayDSNhanVienExcel(path);
-            DataTable NhanVienTable = m_NhanVienData.LayDsNhanVien();
+        //public void Import(string path, DataGridView dgv)
+        //{
+        //    DataTable dtbNhanVienExcel = m_NhanVienData.LayDSNhanVienExcel(path);
+        //    DataTable NhanVienTable = m_NhanVienData.LayDsNhanVien();
 
-            int rowSuccess = 0;
-            for (int i = 0; i < dtbNhanVienExcel.Rows.Count; i++)
-            {
-                bool t = false;
-                for (int j = 0; j < NhanVienTable.Rows.Count; j++)
-                {
-                    if (dtbNhanVienExcel.Rows[i][0].ToString() != NhanVienTable.Rows[j][0].ToString())
-                    {
-                        t = true;
-                    }
-                    else
-                    {
-                        t = false;
-                        j = NhanVienTable.Rows.Count;
-                    }
-                }
-                if (t)
-                {
-                    DataRow rowthem = NhanVienTable.NewRow();
-                    rowthem[0] = dtbNhanVienExcel.Rows[i][0].ToString();
-                    rowthem[1] = dtbNhanVienExcel.Rows[i][1].ToString();
-                    rowthem[2] = dtbNhanVienExcel.Rows[i][2].ToString();
-                    rowthem[3] = dtbNhanVienExcel.Rows[i][3].ToString();
-                    rowthem[4] = dtbNhanVienExcel.Rows[i][4].ToString();
+        //    int rowSuccess = 0;
+        //    for (int i = 0; i < dtbNhanVienExcel.Rows.Count; i++)
+        //    {
+        //        bool t = false;
+        //        for (int j = 0; j < NhanVienTable.Rows.Count; j++)
+        //        {
+        //            if (dtbNhanVienExcel.Rows[i][0].ToString() != NhanVienTable.Rows[j][0].ToString())
+        //            {
+        //                t = true;
+        //            }
+        //            else
+        //            {
+        //                t = false;
+        //                j = NhanVienTable.Rows.Count;
+        //            }
+        //        }
+        //        if (t)
+        //        {
+        //            DataRow rowthem = NhanVienTable.NewRow();
+        //            rowthem[0] = dtbNhanVienExcel.Rows[i][0].ToString();
+        //            rowthem[1] = dtbNhanVienExcel.Rows[i][1].ToString();
+        //            rowthem[2] = dtbNhanVienExcel.Rows[i][2].ToString();
+        //            rowthem[3] = dtbNhanVienExcel.Rows[i][3].ToString();
+        //            rowthem[4] = dtbNhanVienExcel.Rows[i][4].ToString();
 
 
-                    NhanVienTable.Rows.Add(rowthem);
+        //            NhanVienTable.Rows.Add(rowthem);
 
-                    rowSuccess++;
-                }
-            }
-            MessageBox.Show("Số dòng đã được thêm: " + rowSuccess.ToString() + " dòng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+        //            rowSuccess++;
+        //        }
+        //    }
+        //    MessageBox.Show("Số dòng đã được thêm: " + rowSuccess.ToString() + " dòng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //}
 
         internal void HienThi(DataGridViewX dgvNhanVien, BindingNavigator bdgNhanVien, TextBoxX txtMaNhanVien, TextBoxX txtTenNhanVien, ComboBoxEx cmbChucVu)
         {

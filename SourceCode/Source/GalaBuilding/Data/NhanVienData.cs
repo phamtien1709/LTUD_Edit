@@ -94,6 +94,5 @@ namespace GalaBuilding.DataLayer
             m_NhanVienData.Load(cmd);
             return m_NhanVienData;
         }
-
     }
 }

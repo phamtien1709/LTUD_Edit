@@ -168,43 +168,44 @@ namespace GalaBuilding.Controller
 
 
 
+        //public static void TimTheoMa(ListViewEx lvw, String m_MaNguoiDan)
+        //{
+        //    NguoiDanData data = new NguoiDanData();
+        //    DataTable table = data.TimTheoMa(m_MaNguoiDan);
+        //    lvw.Items.Clear();
+        //    foreach (DataRow row in table.Rows)
+        //    {
+        //        ListViewItem item = new ListViewItem(row["MaNguoiDan"].ToString());
+        //        item.SubItems.Add(row["TenNguoiDan"].ToString());
+        //        lvw.Items.Add(item);
+        //    }
+
+        //}
+
+        //public static void TimTheoTen(ListViewEx lvw, String m_TenNguoiDan)
+        //{
+        //    NguoiDanData data = new NguoiDanData();
+        //    DataTable table = data.TimTheoTen(m_TenNguoiDan);
+        //    lvw.Items.Clear();
+        //    foreach (DataRow row in table.Rows)
+        //    {
+        //        ListViewItem item = new ListViewItem(row["MANGUOIDAN"].ToString());
+        //        item.SubItems.Add(row["TENNGUOIDAN"].ToString());
+        //        lvw.Items.Add(item);
+        //    }
+
+        //}
         public void TimKiemNguoiDan(TextBoxX txtTenNguoiDan,
-                                    DataGridViewX dND,
-                                    BindingNavigator bND)
+                            DataGridViewX dND,
+                            BindingNavigator bND)
         {
             BindingSource bS = new BindingSource();
             bS.DataSource = m_NguoiDanData.TimKiemNguoiDan(txtTenNguoiDan.Text);
 
             bND.BindingSource = bS;
-            dND.DataSource = bS;            
-        }
-        public static void TimTheoMa(ListViewEx lvw, String m_MaNguoiDan)
-        {
-            NguoiDanData data = new NguoiDanData();
-            DataTable table = data.TimTheoMa(m_MaNguoiDan);
-            lvw.Items.Clear();
-            foreach (DataRow row in table.Rows)
-            {
-                ListViewItem item = new ListViewItem(row["MaNguoiDan"].ToString());
-                item.SubItems.Add(row["TenNguoiDan"].ToString());
-                lvw.Items.Add(item);
-            }
-
+            dND.DataSource = bS;
         }
 
-        public static void TimTheoTen(ListViewEx lvw, String m_TenNguoiDan)
-        {
-            NguoiDanData data = new NguoiDanData();
-            DataTable table = data.TimTheoTen(m_TenNguoiDan);
-            lvw.Items.Clear();
-            foreach (DataRow row in table.Rows)
-            {
-                ListViewItem item = new ListViewItem(row["MANGUOIDAN"].ToString());
-                item.SubItems.Add(row["TENNGUOIDAN"].ToString());
-                lvw.Items.Add(item);
-            }
-
-        }
 
         public void TimTheoMa(String m_MaNguoiDan)
         {
@@ -216,65 +217,56 @@ namespace GalaBuilding.Controller
             m_NguoiDanData.TimTheoTen(m_MaNguoiDan);
         }
 
-        public void Import(string path, DataGridView dgv)
-        {
-            DataTable dtbNguoiDanExcel = m_NguoiDanData.LayDSNguoiDanExcel(path);
-            DataTable NguoiDanTable = m_NguoiDanData.LayDsNguoiDan();
+        //public void Import(string path, DataGridView dgv)
+        //{
+        //    DataTable dtbNguoiDanExcel = m_NguoiDanData.LayDSNguoiDanExcel(path);
+        //    DataTable NguoiDanTable = m_NguoiDanData.LayDsNguoiDan();
 
-            int rowSuccess = 0;
-            for (int i = 0; i < dtbNguoiDanExcel.Rows.Count; i++)
-            {
-                bool t = false;
-                for (int j = 0; j < NguoiDanTable.Rows.Count; j++)
-                {
-                    if (dtbNguoiDanExcel.Rows[i][0].ToString() != NguoiDanTable.Rows[j][0].ToString())
-                    {
-                        t = true;
-                    }
-                    else
-                    {
-                        t = false;
-                        j = NguoiDanTable.Rows.Count;
-                    }
-                }
-                if (t)
-                {
-                    DataRow rowthem = NguoiDanTable.NewRow();
-                    rowthem[0] = dtbNguoiDanExcel.Rows[i][0].ToString();
-                    rowthem[1] = dtbNguoiDanExcel.Rows[i][1].ToString();
-                    if (dtbNguoiDanExcel.Rows[i][2].ToString().Trim() == "TRUE")
+        //    int rowSuccess = 0;
+        //    for (int i = 0; i < dtbNguoiDanExcel.Rows.Count; i++)
+        //    {
+        //        bool t = false;
+        //        for (int j = 0; j < NguoiDanTable.Rows.Count; j++)
+        //        {
+        //            if (dtbNguoiDanExcel.Rows[i][0].ToString() != NguoiDanTable.Rows[j][0].ToString())
+        //            {
+        //                t = true;
+        //            }
+        //            else
+        //            {
+        //                t = false;
+        //                j = NguoiDanTable.Rows.Count;
+        //            }
+        //        }
+        //        if (t)
+        //        {
+        //            DataRow rowthem = NguoiDanTable.NewRow();
+        //            rowthem[0] = dtbNguoiDanExcel.Rows[i][0].ToString();
+        //            rowthem[1] = dtbNguoiDanExcel.Rows[i][1].ToString();
+        //            if (dtbNguoiDanExcel.Rows[i][2].ToString().Trim() == "TRUE")
 
-                        rowthem[2] = Convert.ToBoolean(dtbNguoiDanExcel.Rows[i][2]);
-                    else
-                        rowthem[2] = Convert.ToBoolean(dtbNguoiDanExcel.Rows[i][2]);
+        //                rowthem[2] = Convert.ToBoolean(dtbNguoiDanExcel.Rows[i][2]);
+        //            else
+        //                rowthem[2] = Convert.ToBoolean(dtbNguoiDanExcel.Rows[i][2]);
 
-                    //rowthem[2] = dtbHocSinhExcel.Rows[i][2].ToString();
-                    rowthem[3] = dtbNguoiDanExcel.Rows[i][3].ToString();
-                    rowthem[4] = dtbNguoiDanExcel.Rows[i][4].ToString();
-                    rowthem[5] = dtbNguoiDanExcel.Rows[i][5].ToString();
-                    rowthem[6] = dtbNguoiDanExcel.Rows[i][6].ToString();
-                    rowthem[7] = dtbNguoiDanExcel.Rows[i][7].ToString();
-                    rowthem[8] = dtbNguoiDanExcel.Rows[i][8].ToString();
-                    rowthem[9] = dtbNguoiDanExcel.Rows[i][9].ToString();
-                    rowthem[10] = dtbNguoiDanExcel.Rows[i][10].ToString();
+        //            //rowthem[2] = dtbHocSinhExcel.Rows[i][2].ToString();
+        //            rowthem[3] = dtbNguoiDanExcel.Rows[i][3].ToString();
+        //            rowthem[4] = dtbNguoiDanExcel.Rows[i][4].ToString();
+        //            rowthem[5] = dtbNguoiDanExcel.Rows[i][5].ToString();
+        //            rowthem[6] = dtbNguoiDanExcel.Rows[i][6].ToString();
+        //            rowthem[7] = dtbNguoiDanExcel.Rows[i][7].ToString();
+        //            rowthem[8] = dtbNguoiDanExcel.Rows[i][8].ToString();
+        //            rowthem[9] = dtbNguoiDanExcel.Rows[i][9].ToString();
+        //            rowthem[10] = dtbNguoiDanExcel.Rows[i][10].ToString();
 
-                    NguoiDanTable.Rows.Add(rowthem);
+        //            NguoiDanTable.Rows.Add(rowthem);
 
-                    rowSuccess++;
-                }
-            }
-            MessageBox.Show("Số dòng đã được thêm: " + rowSuccess.ToString() + " dòng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-        }
-
-        /*
-        internal void TimKiemNguoiDan(TextBoxX txtTenNguoiDan, ComboBoxEx cmbTheoNgheNghiep, TextBoxX txtNgheNghiep, ComboBoxEx cmbTheoDantoc, ComboBoxEx cmbDanToc, ComboBoxEx cmbTheoTonGiao, ComboBoxEx cmbTonGiao, DataGridViewX dgvTKHocSinh, BindingNavigator bdgTKHocsinh)
-        {
-            throw new NotImplementedException();
-        }
-         */
+        //            rowSuccess++;
+        //        }
+        //    }
+        //    MessageBox.Show("Số dòng đã được thêm: " + rowSuccess.ToString() + " dòng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
+        //}
     }
 }

@@ -104,12 +104,6 @@ namespace GalaBuilding.DataLayer
             return "SELECT MaNguoiDan, TenNguoiDan from NGUOIDAN ";
         }
 
-        /*
-        public String TruyVanChung()
-        {
-            return "SELECT ND.MaNguoiDan, ND.TenNguoiDan, ND.GioiTinh, ND.NgaySinh, DT.TenDanToc, TG.TenTonGiao FROM NGUOIDAN ND INNER JOIN DANTOC DT ON ND.MaDanToc = DT.MaDanToc INNER JOIN TONGIAO TG ON ND.MaTonGiao = TG.MaTonGiao";
-        }
-        */
         public String TruyVanChung()
         {
             return "SELECT ND.MaNguoiDan,ND.TenNguoiDan, CH_ND.MaCanHo, ND.GioiTinh, ND.NgaySinh" +
@@ -125,31 +119,12 @@ namespace GalaBuilding.DataLayer
         {
             SqlCommand cmd = new SqlCommand();
 
-            String sql = TruyVanChung() + " WHERE ND.TenNguoiDan LIKE N'%' + @ + '%' ";
+            String sql = TruyVanChung() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
             cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
+
+            cmd.CommandText = sql;
             m_NguoiDanData.Load(cmd);
             return m_NguoiDanData;
         }
-
-        //public DataTable TimKiemNguoiDan(String TenNguoiDan, String MaCanHo)
-        //{
-        //    SqlCommand cmd = new SqlCommand();
-
-        //    String sql = TruyVanChung() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
-        //    cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
-
-        //    cmd.CommandText = sql;
-        //    m_NguoiDanData.Load(cmd);
-        //    return m_NguoiDanData;
-        //}
-
-
-
-        /*
-        internal object TimKiemNguoiDan(string p, string p_2, string p_3, string p_4, string p_5, string p_6, string p_7)
-        {
-            throw new NotImplementedException();
-        }
-         */
     }
 }
