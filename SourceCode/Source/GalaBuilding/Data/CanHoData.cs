@@ -79,37 +79,18 @@ namespace GalaBuilding.DataLayer
                    "FULL OUTER JOIN DICHVU DV ON CH_DV.MaDichVu = DV.MaDichVu";
         }
 
-        public DataTable TimKiemCanHo(String maCanHo, String theoTenNguoiDan, String TenNguoiDan, String theoDichVu, String TenDichVu)
+        public DataTable TimKiemCanHo(String maCanHo, String TenNguoiDan)
         {
             SqlCommand cmd = new SqlCommand();
             string sql;
 
-            if (theoTenNguoiDan == "NONE")
-            {
-                sql = TruyVanChung() + " WHERE CH.MaCanHo LIKE '%' + @maCanHo + '%' ";
-                cmd.Parameters.Add("maCanHo", SqlDbType.NVarChar).Value = maCanHo;
-
-                if (theoDichVu != "NONE")
-                {
-                    sql += theoDichVu + " DV.TenDichVu LIKE N'%' + @TenDichVu + '%' ";
-                    cmd.Parameters.Add("TenDichVu", SqlDbType.NVarChar).Value = TenDichVu;
-                }
-            }
-            else
-            {
                 sql = TruyVanTheoTenNguoiDan() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
                 cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
                 if (maCanHo != "")
                 {
-                    sql += theoTenNguoiDan + " CH.MaCanHo LIKE '%' + @maCanHo + '%' ";
+                    sql += " CH.MaCanHo LIKE '%' + @maCanHo + '%' ";
                     cmd.Parameters.Add("maCanHo", SqlDbType.NVarChar).Value = maCanHo;
                 }
-                else if (theoDichVu != "NONE")
-                {
-                    sql += theoDichVu + " DV.TenDichVu LIKE N'%' + @TenDichVu + '%'";
-                    cmd.Parameters.Add("TenDichVu", SqlDbType.NVarChar).Value = TenDichVu;
-                }
-            }
             
             cmd.CommandText = sql;
             m_CanHoData.Load(cmd);

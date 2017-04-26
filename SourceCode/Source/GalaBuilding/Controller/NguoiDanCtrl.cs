@@ -169,14 +169,11 @@ namespace GalaBuilding.Controller
 
 
         public void TimKiemNguoiDan(TextBoxX txtTenNguoiDan,
-                                    ComboBoxEx cmbTheoCanHo,
-                                    ComboBoxEx cmbMaCanHo,
-
                                     DataGridViewX dND,
                                     BindingNavigator bND)
         {
             BindingSource bS = new BindingSource();
-            bS.DataSource = m_NguoiDanData.TimKiemNguoiDan(txtTenNguoiDan.Text, cmbTheoCanHo.Text, cmbMaCanHo.Text);
+            bS.DataSource = m_NguoiDanData.TimKiemNguoiDan(txtTenNguoiDan.Text);
 
             bND.BindingSource = bS;
             dND.DataSource = bS;            
@@ -278,10 +275,6 @@ namespace GalaBuilding.Controller
         }
          */
 
-        internal void TimKiemNguoiDan(TextBoxX txtTenNguoiDan,ComboBoxEx cmbTheoCanHo, ComboBoxEx cmbMaCanHo, ComboBoxEx cmbTheoNgheNghiep, TextBoxX txtNgheNghiep, ComboBoxEx cmbTheoDantoc, ComboBoxEx cmbDanToc, ComboBoxEx cmbTheoTonGiao, ComboBoxEx cmbTonGiao, DataGridViewX dgvTraCuuNguoiDan, BindingNavigator bdgTraCuuNguoiDan)
-        {
-            throw new NotImplementedException();
-        }
 
     }
 }

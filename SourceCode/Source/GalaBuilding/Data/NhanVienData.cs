@@ -83,18 +83,12 @@ namespace GalaBuilding.DataLayer
             return dsIOExcel.Load(cmd, path);
         }
 
-        public DataTable TimKiemNhanVien(String TenNhanVien, String theoChucVu, String TenChucVu)
+        public DataTable TimKiemNhanVien(String TenNhanVien)
         {
             SqlCommand cmd = new SqlCommand();
 
             String sql = TruyVanChung() + " WHERE NV.TenNhanVien LIKE '%' + @TenNhanVien + '%' ";
             cmd.Parameters.Add("TenNhanVien", SqlDbType.NVarChar).Value = TenNhanVien;
-
-            if (theoChucVu != "NONE")
-            {
-                sql += theoChucVu + " CV.TenChucVu = @TenChucVu ";
-                cmd.Parameters.Add("TenChucVu", SqlDbType.NVarChar).Value = TenChucVu;
-            }
 
             cmd.CommandText = sql;
             m_NhanVienData.Load(cmd);

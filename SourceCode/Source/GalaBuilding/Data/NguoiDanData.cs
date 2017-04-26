@@ -116,6 +116,11 @@ namespace GalaBuilding.DataLayer
                    "FROM NGUOIDAN ND FULL OUTER JOIN CANHO_NGUOIDAN CH_ND ON ND.MaNguoiDan = CH_ND.MaNguoiDan ";
         }
 
+        internal DataTable LayDsNguoiDanForReport()
+        {
+            throw new NotImplementedException();
+        }
+
         public DataTable TimKiemNguoiDan(String TenNguoiDan)
         {
             SqlCommand cmd = new SqlCommand();
@@ -126,29 +131,18 @@ namespace GalaBuilding.DataLayer
             return m_NguoiDanData;
         }
 
-        public DataTable TimKiemNguoiDan(String TenNguoiDan, String theoCanHo, String MaCanHo)
-        {
-            SqlCommand cmd = new SqlCommand();
+        //public DataTable TimKiemNguoiDan(String TenNguoiDan, String MaCanHo)
+        //{
+        //    SqlCommand cmd = new SqlCommand();
 
-            String sql = TruyVanChung() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
-            cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
+        //    String sql = TruyVanChung() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
+        //    cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
 
-            if (theoCanHo != "NONE")
-            {
-                sql += theoCanHo + " CH_ND.MaCanHo = @MaCanHo ";
-                cmd.Parameters.Add("MaCanHo", SqlDbType.NVarChar).Value = MaCanHo;
-            }
+        //    cmd.CommandText = sql;
+        //    m_NguoiDanData.Load(cmd);
+        //    return m_NguoiDanData;
+        //}
 
-
-            cmd.CommandText = sql;
-            m_NguoiDanData.Load(cmd);
-            return m_NguoiDanData;
-        }
-
-        internal DataTable LayDsNguoiDanForReport()
-        {
-            throw new NotImplementedException();
-        }
 
 
         /*

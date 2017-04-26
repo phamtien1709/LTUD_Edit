@@ -59,16 +59,13 @@ namespace GalaBuilding.Controller
         */
 
         public void TimKiemCanHo(TextBoxX txtMaCanHo,
-                                   ComboBoxEx cmbTheoTenNguoiDan,
                                    TextBoxX txtTenNguoiDan,
-                                   ComboBoxEx cmbTheoDichVu,
-                                   ComboBoxEx cmbMaDichVu,
                                    ComboBoxEx cmbMaCanHoDK,
                                    DataGridViewX dGV,
                                    BindingNavigator bN)
         {
             BindingSource bS = new BindingSource();
-            bS.DataSource = m_CanHoData.TimKiemCanHo(txtMaCanHo.Text, cmbTheoTenNguoiDan.Text, txtTenNguoiDan.Text, cmbTheoDichVu.Text, cmbMaDichVu.Text);
+            bS.DataSource = m_CanHoData.TimKiemCanHo(txtMaCanHo.Text, txtTenNguoiDan.Text);
 
             cmbMaCanHoDK.DataBindings.Clear();
             cmbMaCanHoDK.DataBindings.Add("SelectedValue", bS, "MaCanHo");

@@ -104,13 +104,13 @@
     <Compile Include="Controller\NguoiDanCtrl.cs" />
     <Compile Include="Controller\NguoiDungCtrl.cs" />
     <Compile Include="Controller\NhanVienCtrl.cs" />
-    <Compile Include="DataLayer\CanHoData.cs" />
-    <Compile Include="DataLayer\ChucVuData.cs" />
-    <Compile Include="DataLayer\DichVuData.cs" />
-    <Compile Include="DataLayer\LoaiNguoiDungData.cs" />
-    <Compile Include="DataLayer\NguoiDanData.cs" />
-    <Compile Include="DataLayer\NguoiDungData.cs" />
-    <Compile Include="DataLayer\NhanVienData.cs" />
+    <Compile Include="Data\CanHoData.cs" />
+    <Compile Include="Data\ChucVuData.cs" />
+    <Compile Include="Data\DichVuData.cs" />
+    <Compile Include="Data\LoaiNguoiDungData.cs" />
+    <Compile Include="Data\NguoiDanData.cs" />
+    <Compile Include="Data\NguoiDungData.cs" />
+    <Compile Include="Data\NhanVienData.cs" />
     <Compile Include="Component\frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>

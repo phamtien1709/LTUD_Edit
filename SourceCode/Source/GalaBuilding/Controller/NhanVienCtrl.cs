@@ -111,13 +111,11 @@ namespace GalaBuilding.Controller
         }
 
         public void TimKiemNhanVien(TextBoxX txtTenNhanVien,
-                                   ComboBoxEx cmbTheoChucVu,
-                                   ComboBoxEx cmbChucVu,
                                    DataGridViewX dNV,
                                    BindingNavigator bN)
         {
             BindingSource bS = new BindingSource();
-            bS.DataSource = m_NhanVienData.TimKiemNhanVien(txtTenNhanVien.Text, cmbTheoChucVu.Text, cmbChucVu.Text);
+            bS.DataSource = m_NhanVienData.TimKiemNhanVien(txtTenNhanVien.Text);
             bN.BindingSource = bS;
             dNV.DataSource = bS;
         }
