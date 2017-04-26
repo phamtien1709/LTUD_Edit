@@ -87,15 +87,6 @@
     <Compile Include="Component\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Component\frmDoiMatKhau.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Component\frmDoiMatKhau.Designer.cs">
-      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Component\Thaydoichuot.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="Controller\CanHoCtrl.cs" />
     <Compile Include="Controller\ChucVuCtrl.cs" />
     <Compile Include="Controller\DichVuCtrl.cs" />
@@ -111,12 +102,6 @@
     <Compile Include="Data\NguoiDanData.cs" />
     <Compile Include="Data\NguoiDungData.cs" />
     <Compile Include="Data\NhanVienData.cs" />
-    <Compile Include="Component\frmAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Component\frmAbout.Designer.cs">
-      <DependentUpon>frmAbout.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmChucVu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,18 +167,6 @@
     <EmbeddedResource Include="Component\frmDangNhap.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Component\frmDoiMatKhau.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Component\Thaydoichuot.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>Thaydoichuot.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Component\frmAbout.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>frmAbout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmChucVu.resx">
       <DependentUpon>frmChucVu.cs</DependentUpon>

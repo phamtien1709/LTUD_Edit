@@ -106,8 +106,9 @@ namespace GalaBuilding.DataLayer
 
         public String TruyVanChung()
         {
-            return "SELECT ND.MaNguoiDan,ND.TenNguoiDan, CH_ND.MaCanHo, ND.GioiTinh, ND.NgaySinh" +
-                   "FROM NGUOIDAN ND FULL OUTER JOIN CANHO_NGUOIDAN CH_ND ON ND.MaNguoiDan = CH_ND.MaNguoiDan ";
+            return "SELECT ND.MaNguoiDan,ND.TenNguoiDan, CH_ND.MaCanHo, ND.GioiTinh, ND.NgaySinh " +
+                   "FROM NGUOIDAN ND " +
+                   "FULL OUTER JOIN CANHO_NGUOIDAN CH_ND ON ND.MaNguoiDan = CH_ND.MaNguoiDan";
         }
 
         internal DataTable LayDsNguoiDanForReport()

@@ -79,19 +79,26 @@ namespace GalaBuilding.DataLayer
                    "FULL OUTER JOIN DICHVU DV ON CH_DV.MaDichVu = DV.MaDichVu";
         }
 
-        public DataTable TimKiemCanHo(String maCanHo, String TenNguoiDan)
+        public DataTable TimKiemCanHo(String MaCanHo, String TenNguoiDan)
         {
             SqlCommand cmd = new SqlCommand();
             string sql;
-
+            if (TenNguoiDan == "")
+            {
+                sql = TruyVanChung() + " WHERE CH.MaCanHo LIKE '%' + @MaCanHo + '%' ";
+                cmd.Parameters.Add("MaCanHo", SqlDbType.NVarChar).Value = MaCanHo;
+            }
+            else
+            { 
                 sql = TruyVanTheoTenNguoiDan() + " WHERE ND.TenNguoiDan LIKE N'%' + @TenNguoiDan + '%' ";
                 cmd.Parameters.Add("TenNguoiDan", SqlDbType.NVarChar).Value = TenNguoiDan;
-                if (maCanHo != "")
+                if (MaCanHo != "")
                 {
-                    sql += " CH.MaCanHo LIKE '%' + @maCanHo + '%' ";
-                    cmd.Parameters.Add("maCanHo", SqlDbType.NVarChar).Value = maCanHo;
+                    sql += " CH.MaCanHo LIKE '%' + @MaCanHo + '%' ";
+                    cmd.Parameters.Add("MaCanHo", SqlDbType.NVarChar).Value = MaCanHo;
                 }
-            
+            }
+
             cmd.CommandText = sql;
             m_CanHoData.Load(cmd);
             return m_CanHoData;
